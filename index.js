@@ -22,15 +22,15 @@ function generateCard () {
 
 
 
-        seed = document.createElement("div");   
-        seed.className = "seed";     
+    seed = document.createElement("div");   
+    seed.className = "seed";     
         
-        symbol = document.createTextNode(randomSeed); 
-        seed.appendChild(symbol);
-        seed.style.color = randomColor;
+    symbol = document.createTextNode(randomSeed); 
+    seed.appendChild(symbol);
+    seed.style.color = randomColor;
 
-        seed2 = document.createElement("div");   
-        seed2.className = "seed2";
+    seed2 = document.createElement("div");   
+    seed2.className = "seed2";
        
         symbol2 = document.createTextNode(randomSeed);        
         seed2.appendChild(symbol2);
@@ -48,9 +48,8 @@ function generateCard () {
         card.appendChild(seed);
         card.appendChild(numberElement);
         card.appendChild(seed2);
-        
-
 }    
+
 function random(card){
     return card[Math.floor(Math.random() * card.length)]
 }
