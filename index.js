@@ -1,5 +1,4 @@
 var numbers =["1","2","3","4","5","6","7","8","9","10","J","Q","K"];
-var colors = ["red", "black"];
 var seeds = ["\u2660", "\u2663", "\u2665", "\u2666"];
 
 window.onload = () =>{
@@ -32,22 +31,22 @@ function generateCard () {
     seed2 = document.createElement("div");   
     seed2.className = "seed2";
        
-        symbol2 = document.createTextNode(randomSeed);        
-        seed2.appendChild(symbol2);
-        seed2.style.color = randomColor;
+    symbol2 = document.createTextNode(randomSeed);        
+    seed2.appendChild(symbol2);
+    seed2.style.color = randomColor;
 
-        numberElement = document.createElement("div");   
-        numberElement.className = "numb";
+    numberElement = document.createElement("div");   
+    numberElement.className = "numb";
        
-        number = document.createTextNode(randomNumb);        
-        numberElement.appendChild(number);
-        numberElement.style.color = "black";
+    number = document.createTextNode(randomNumb);        
+    numberElement.appendChild(number);
+    numberElement.style.color = "black";
 
-        document.body.appendChild( container );    
-        container.appendChild(card)
-        card.appendChild(seed);
-        card.appendChild(numberElement);
-        card.appendChild(seed2);
+    document.body.appendChild( container );    
+    container.appendChild(card)
+    card.appendChild(seed);
+    card.appendChild(numberElement);
+    card.appendChild(seed2);
 }    
 
 function random(card){
