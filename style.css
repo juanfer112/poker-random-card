@@ -10,7 +10,7 @@ body {
 
 }
 .cards{
-     margin: auto;
+    margin: auto;
     height: 400px;
     width: 270px;
     display: flex;
