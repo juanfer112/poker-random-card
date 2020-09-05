@@ -1,0 +1,37 @@
+body {
+    background-color: green;
+}
+.container-card{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+    background: green;
+
+}
+.cards{
+    margin: auto;
+    height: 400px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow:4px 4px 4px rgba(0,0,0,0.4);
+}
+
+.seed{
+    font-Size: 5rem;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+.seed2{
+    font-Size: 5rem;
+    align-self: flex-end;
+    margin-right: 10px;
+}
+.numb{
+    font-Size: 6rem;
+}
